@@ -4,7 +4,7 @@ Config.NPCS = {
     { -- Employee
         coords = vector4(-264.17, 673.86, 112.33, 172.04), -- Npc coordinates
         model = 'S_M_M_StrLumberjack_01', -- Npc model
-        weapon = false, -- Choose the weapon that will be equipped or without a weapon
+        weapon = false, -- Choose the weapon that will be equipped or without a weapon (false)
         outfit = false, -- Outfit number or random (false)
         scenario = 'PROP_HUMAN_REPAIR_WAGON_WHEEL_ON_LARGE', -- Choose the scenario that the npc will perform or disable the scenario (false)
     },

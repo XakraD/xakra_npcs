@@ -8,7 +8,7 @@ In order for the npc to be at ground level, the Z coordinates must be lowered ac
 In the Config file you can change:
 - Npc coordinates
 - Npc model
-- Choose the weapon that will be equipped or without a weapon
+- Choose the weapon that will be equipped or without a weapon (false)
 - Outfit number or random (false)
 
 ## Instructions to incorporate script
