@@ -13,7 +13,7 @@ Citizen.CreateThread(function()
         for _, npc in pairs(Config.NPCS) do
             local pcoords = GetEntityCoords(PlayerPedId())
             local dist = GetDistanceBetweenCoords(pcoords, npc.coords.x, npc.coords.y, npc.coords.z, 1)
-            print(dist)
+
             if dist < 180 and not DoesEntityExist(npc.NPC) then
                 LoadModel(npc.model)
                 local npc_ped = CreatePed(npc.model, npc.coords, false, true, true, true)
