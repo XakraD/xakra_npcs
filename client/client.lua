@@ -41,6 +41,10 @@ Citizen.CreateThread(function()
                     TaskPlayAnim(npc_ped, npc.anim.animDict, npc.anim.animName, 1.0, -1.0, -1, 1, 0, true, 0, false, 0, false)
                 end
 
+                if npc.scale then
+                    SetPedScale(npc_ped, npc.scale)
+                end
+
                 SetEntityCanBeDamaged(npc_ped, false)
                 SetEntityInvincible(npc_ped, true)
                 FreezeEntityPosition(npc_ped, true)

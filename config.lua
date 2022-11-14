@@ -8,6 +8,7 @@ Config.NPCS = {
         outfit = false, -- Outfit number or random (false)
         scenario = 'PROP_HUMAN_REPAIR_WAGON_WHEEL_ON_LARGE', -- Choose the scenario that the npc will perform or disable the scenario (false)
         anim = { animDict = false, animName = '' }, -- Choose animation or disable animation by putting false in animDict or animName
+        scale = false, -- Increase or decrease the NPC e.g. 0.6 for a very very small or 1.5 for a giant. (false is default)
     },
     { -- Guard
         coords = vector4(-266.84, 674.53, 112.31, 260.97), -- Npc coordinates
@@ -16,6 +17,7 @@ Config.NPCS = {
         outfit = 8, -- Outfit number or random (false)
         scenario = 'WORLD_HUMAN_GUARD_LANTERN_NERVOUS', -- Choose the scenario that the npc will perform or disable the scenario (false)
         anim = { animDict = false, animName = '' }, -- Choose animation or disable animation by putting false in animDict or animName
+        scale = false, -- Increase or decrease the NPC e.g. 0.6 for a very very small or 1.5 for a giant. (false is default)
     },
     { -- Drunk woman
         coords = vector4(-263.32, 676.25, 112.26, 130.61), -- Npc coordinates
@@ -24,6 +26,6 @@ Config.NPCS = {
         outfit = 1, -- Outfit number or random (false)
         scenario = false, -- Choose the scenario that the npc will perform or disable the scenario (false)
         anim = { animDict = 'amb_misc@world_human_drunk_dancing@male@male_a@idle_b', animName = 'idle_e' }, -- Choose animation or disable animation by putting false in animDict or animName
-    },
-    
+        scale = false, -- Increase or decrease the NPC e.g. 0.6 for a very very small or 1.5 for a giant. (false is default)
+    }
 }
